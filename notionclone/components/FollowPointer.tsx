@@ -16,7 +16,6 @@ const FollowPointer = ({
   x: number;
   y: number;
 }) => {
-  const [isHovered, setIsHovered] = useState(false);
   const [animationKey, setAnimationKey] = useState(0);
   const [isMoving, setIsMoving] = useState(true);
   const [lastPosition, setLastPosition] = useState({ x, y });
@@ -65,8 +64,6 @@ const FollowPointer = ({
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
     >
       {/* Custom cursor with pulsing effect */}
       <motion.div

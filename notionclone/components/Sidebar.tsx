@@ -24,7 +24,7 @@ const Sidebar = () => {
     owner: RoomDocument[];
     editor: RoomDocument[];
   }>({ owner: [], editor: [] });
-  const [data, loading, error] = useCollection(
+  const [data, ,] = useCollection(
     user &&
       query(
         collectionGroup(db, "rooms"),

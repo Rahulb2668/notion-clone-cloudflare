@@ -1,9 +1,8 @@
 "use client";
 
 import { useRoom } from "@liveblocks/react/suspense";
-import { useEffect, useState } from "react";
-import * as Y from "yjs";
-import { getYjsProviderForRoom, LiveblocksYjsProvider } from "@liveblocks/yjs";
+import { useState } from "react";
+import { getYjsProviderForRoom } from "@liveblocks/yjs";
 import { Moon, Sun } from "lucide-react";
 import { Button } from "./ui/button";
 import BlockNote from "./BlockNote";
