@@ -1,0 +1,114 @@
+# Node.js and common backend/frontend ignores
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Testing and coverage
+lib-cov
+coverage
+*.lcov
+.nyc_output
+
+# Build tools
+.grunt
+bower_components
+.lock-wscript
+build/Release
+
+# Dependency directories
+**/node_modules/
+jspm_packages/
+web_modules/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Caches
+.npm
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.node_repl_history
+.cache
+.parcel-cache
+.temp
+.cache
+.dynamodb/
+.fusebox/
+.tern-port
+
+# Package files
+*.tgz
+
+# Yarn
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Environment variables
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+.dev.vars
+
+**/.service-key.json
+# Next.js specific
+**/.next/
+**/out/
+**/test/
+
+# Wrangler project
+.wrangler/
+
+# Serverless
+.serverless/
+
+# Various frameworks build directories
+**/dist/
+**/build/
+.nuxt/
+.vuepress/dist
+.docusaurus
+
+# IDE and OS files
+.vscode-test
+.vscode/
+.idea/
+.DS_Store
+*.pem
+
+# PWA files (Next.js)
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
+
+# Vercel
+.vercel
+
+**/service-key.json
